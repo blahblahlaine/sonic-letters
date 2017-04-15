@@ -225,7 +225,14 @@
       sustaining = true;
       $(pianoClass('pedal')).addClass('piano-sustain');
     }
-    press(keydown(event.which));
+    
+    var code;
+if(/^[a-zA-Z()]$/.test(event.key)) {
+  code = event.key.toUpperCase().charCodeAt(0);
+} else {
+  code = event.which();
+}
+press(keydown(code));
   });
   
   $(document).keyup(function(event) {
