@@ -14,58 +14,66 @@
   You should have received a copy of the GNU General Public License
   along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
+
 body {
 font-family: 'Roboto Mono', monospace;
-color: white;
 }
 
 #banner {
-padding-left: 40px;
-padding-bottom: 0px;
-width: 781px;
-
-height: 400px;
+padding-left: 50px;
+margin-top: 0px;
+width: 95%;
+margin-bottom: 75px;
+height: 300px;
 text-align: left;
 }
 
 h1 {
 color: black;
 font-size: 100px;
-text-align: center;
+text-align: left;
+margin-bottom: 30px;
+margin-top: 30px;   
 }
 
-p {
-padding-left: 4px;
+#banner p {
+padding-left: 0px;
 color: black;
-text-align: left;}
+text-align: left;
+color:black; }
 
 audio {
-  display: none;
+display: none;
 }
 
+div.piano-container h1 {
+font-size: 30px;
+font-style: bold;
+color:black;
+margin-top: 0px;
+letter-spacing: 0.34em;
+word-spacing: 0em;}
 
-
-
-.piano-container, .piano-javascript {
-  
-  margin: 5px;
-  padding: 5px;
+div.piano-container {
+width: 95%;
+text-align: left;
+padding-left: 50px;
+margin-bottom: 10px;
+height: 120px;
+z-index: 0;
+height: 150px;
 }
 
-.piano-container {
-    width: 100%;
-  text-align: center;
-}
 
 .piano-keys{
   word-spacing: 0;
   letter-spacing: 0;
-  font-size: 0;
+  font-size: 0px;
 }
+
 
 .piano-pedal {
   margin: 10px;
-  color: rgba(0, 0, 0, 0.1);
 }
 
 .piano-sustain {
@@ -77,29 +85,93 @@ audio {
   position: relative;
   vertical-align: top;
   direction: ltr;
-  margin: 0;
-  padding: 0;
+padding: 0;
 }
 
 .piano-white, .piano-black-raised {
-  
-  border-color: #222;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  cursor: pointer;
+cursor: pointer;
 }
+
+.colorpsych {
+padding-left:50px;
+height: 200px;
+width: 95%;
+}
+
+.colorpsych h1 {
+font-size: 50px;}
+
+.colorpsych p{
+font-size: 15px;
+margin-top: 0;}
+
+.circlecontainer {
+height:50px;
+width: 340px;
+margin-left: 0px;
+margin-top: 40px;
+text-align: left;
+float: left;
+padding: 00px 0px 0px 0px;
+
+}
+
+.circlecontainer span{
+padding-top: 15px;
+font-size: 20px;
+float: left;
+margin-left: 60px;
+}
+
+.circlecontainer h1{
+font-size: 30px;
+margin-top: -35px;
+padding: 0px;
+display: inline-block; 
+margin-left: 16px;
+float: left;
+}
+
+.circlecontainer h2{
+font-size: 30px;
+margin-top: -35px;
+padding: 0px;
+display: inline-block; 
+margin-left: 12px;
+float: left;
+}
+
+.circle { 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.C  {background-color: #3898F5;}
+.Db {background-color: #0045F2;}
+.D  {background-color: #844EF3;}
+.Eb {background-color: #EC5FF5;}
+.E  {background-color: #EC4C91;}
+.F  {background-color: #EC422B;}
+.Gb {background-color: #F2963F;}
+.G  {background-color: #FFF95C;}
+.Ab {background-color: #ABF456;}
+.A  {background-color: #71F252;}
+.Bb {background-color: #70F49D;}
+.B  {background-color: #53B876;}
+
 
 .piano-white {
   width: 24px;
   height: 100px;
-  
+  border: 2px solid black;
   z-index: 1;
 }
 
 .piano-black {
   width: 0px;
   height: 100px;
-  z-index: 2;
+  z-index: 2;  
 }
 
 .piano-black-raised {
@@ -107,5 +179,5 @@ audio {
   height: 70px;
   position: relative;
   left: -10px;
-  background-color: black;
+  border: 2px solid black;
 }
