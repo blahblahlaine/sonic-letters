@@ -24,7 +24,7 @@ padding-left: 50px;
 margin-top: 0px;
 width: 95%;
 margin-bottom: 75px;
-height: 300px;
+height: 420px;
 text-align: left;
 }
 
@@ -32,10 +32,12 @@ h1 {
 color: black;
 font-size: 100px;
 text-align: left;
-margin-bottom: 30px;
+margin-bottom: 0px;
 margin-top: 30px;   
 }
 
+h2{
+margin-bottom: 30px;}
 #banner p {
 padding-left: 0px;
 color: black;
@@ -58,7 +60,7 @@ div.piano-container {
 width: 95%;
 text-align: left;
 padding-left: 50px;
-margin-bottom: 10px;
+margin-bottom: 0px;
 height: 120px;
 z-index: 0;
 height: 150px;
@@ -93,58 +95,62 @@ cursor: pointer;
 }
 
 .colorpsych {
+    padding-top: 50px;
 padding-left:50px;
 height: 200px;
 width: 95%;
 }
 
 .colorpsych h1 {
-font-size: 50px;}
+font-size: 50px;
+line-height: 120%;}
 
 .colorpsych p{
-font-size: 15px;
-margin-top: 0;}
+font-size: 15px;}
 
 .circlecontainer {
-height:50px;
-width: 340px;
+height:120%;
+width: 45%;
 margin-left: 0px;
-margin-top: 40px;
-text-align: left;
+text-align: center;
 float: left;
-padding: 00px 0px 0px 0px;
-
+padding: 60px 60px 40px 0px;
+border: 0px solid black;
 }
 
-.circlecontainer span{
-padding-top: 15px;
+.circlecontainer p{
+margin-top: -67px;
 font-size: 20px;
-float: left;
-margin-left: 60px;
+text-align: left;
+padding-left: 120px;
 }
 
 .circlecontainer h1{
-font-size: 30px;
-margin-top: -35px;
+font-size: 50px;
+margin-top: 0px;
 padding: 0px;
 display: inline-block; 
-margin-left: 16px;
-float: left;
+text-align: center;
+line-height: 90%;
+
 }
 
 .circlecontainer h2{
-font-size: 30px;
-margin-top: -35px;
+font-size: 12px;
+text-align: left;
+margin-top: 16px;
 padding: 0px;
 display: inline-block; 
-margin-left: 12px;
-float: left;
+margin-bottom: 0px;
+
 }
 
 .circle { 
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+    z-index: 0;
+ 
 }
 
 .C  {background-color: #3898F5;}
@@ -158,7 +164,22 @@ float: left;
 .Ab {background-color: #ABF456;}
 .A  {background-color: #71F252;}
 .Bb {background-color: #70F49D;}
-.B  {background-color: #53B876;}
+.B  {background-color: #6EF9FD;}
+
+.Ctext  {color: #3898F5;}
+.Dbtext {color: #0045F2;}
+.Dtext  {color: #844EF3;}
+.Ebtext {color: #EC5FF5;}
+.Etext  {color: #EC4C91;}
+.Ftext  {color: #EC422B;}
+.Gbtext {color: #F2963F;}
+.Gtext  {color: #FFF95C;
+         text-shadow: 1px 1px #A3A3A3;}
+.Abtext {color: #ABF456;}
+.Atext  {color: #71F252;}
+.Bbtext {color: #70F49D;}
+.Btext  {color: #6EF9FD;}
+
 
 
 .piano-white {
